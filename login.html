@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - TechLaptops</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <a href="index.php" class="home-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          width="20"
+          height="20"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 9.75L12 3l9 6.75V21a.75.75 0 01-.75.75H4.75A.75.75 0 014 21V9.75z"
+          />
+        </svg>
+      </a>
+      <h2>Login to TechLaptops</h2>
+      <form class="auth-form" method="POST" action="login.php">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="Enter your email" required />
+
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="Enter your password" required />
+
+  <button type="submit">Login</button>
+  <p>Don't have an account? <a href="register.html">Register here</a></p>
+</form>
+    </div>
+  </body>
+</html>
